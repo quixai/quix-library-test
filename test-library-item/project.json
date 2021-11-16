@@ -1,9 +1,9 @@
 {
     "name": "Test1",
     "language": "C#",
-    "tags": [
-        { "TagGroup1": ["tag1", "tag2"] }
-    ],
+    "tags": {
+        "TagGroup1": ["tag1", "tag2"]
+    },
     "shortDescription": "Short description",
     "longDescription": "Long description"
 }
