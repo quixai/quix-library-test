@@ -5,5 +5,64 @@
         "TagGroup1": ["tag99", "tag100"]
     },
     "shortDescription": "Short description 2",
-    "longDescription": "Long description 2"
+    "longDescription": "Long description 2",
+    "Variables": [ 
+        {
+            "Name" : "WorkspaceId",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "quixdev-connectorsdontdelete"
+        }, 
+        {
+            "Name" : "Broker__Address",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "devkafka-k1.quix.ai:9093,devkafka-k2.quix.ai:9093,devkafka-k3.quix.ai:9093"
+        }, 
+        {
+            "Name" : "Broker__Security__UserName",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "quixdev-connectorsdontdelete"
+        }, 
+        {
+            "Name" : "Broker__Security__Password",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "dUTgD9LfRD5v90nfSlabekSPBkjaxFto75t"
+        }, 
+        {
+            "Name" : "Broker__Security__CertificatesBase64",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : ""
+        }, 
+        {
+            "Name" : "Topic",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "everything"
+        }, 
+        {
+            "Name" : "google_project_id",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "valid-arc-330108"
+        }, 
+        {
+            "Name" : "google_subscription_id",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "quix-sub"
+        }
+    ],
+    "EntryPoint" : "source/build/dockerfile"
+
 }
