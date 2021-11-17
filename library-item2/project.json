@@ -44,7 +44,7 @@
         {
             "Name" : "Topic",
             "Type" : "EnvironmentVariable",
-            "InputType" : "FreeText",
+            "InputType" : "Topic",
             "Description" : "",
             "DefaultValue" : "everything"
         }, 
