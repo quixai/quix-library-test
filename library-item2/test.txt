@@ -1,0 +1,11 @@
+Patrick bla bla bla {placeholder:1}
+
+Token: {placeholder:token}
+WorkspaceId: {placeholder:workspaceId}
+Broker address: {placeholder:broker.address}
+Broker user: {placeholder:broker.security.username}
+Broker password: {placeholder:broker.security.password}
+Environment name: {placeholder:environment.name}
+Environment subdomain: {placeholder:environment.subdomain}
+
+end.
