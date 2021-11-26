@@ -1,0 +1,42 @@
+{
+    "name": "Hello World",
+    "language": "Python",
+    "tags": {
+      "Sample Type": [ "read" ],
+      "Complexity": [ "easy" ]
+    },
+    "shortDescription": "Hello world project",
+    "longDescription": "This is a long description about what is a hello world project and for what is used for. Setup Guide! ",
+    "Variables": [ 
+        {
+            "Name" : "WorkspaceId",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "quixdev-connectorsdontdelete"
+        }, 
+        {
+            "Name" : "Topic",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "Topic",
+            "Description" : "",
+            "DefaultValue" : "everything"
+        }, 
+        {
+            "Name" : "google_project_id",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "valid-arc-330108"
+        }, 
+        {
+            "Name" : "google_subscription_id",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "quix-sub"
+        }
+    ],
+    "EntryPoint" : "main.py"
+
+}
