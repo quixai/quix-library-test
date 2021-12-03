@@ -2,10 +2,11 @@
     "name": "Hello World",
     "language": "Python",
     "tags": {
-      "Sample Type": [ "read" ],
-      "Complexity": [ "easy" ]
+      "Type": [ "Sample", "Connector", "Data Source" ],
+      "SDK Usage": [ "Read" ],
+      "Complexity": [ "Easy" ]
     },
-    "shortDescription": "Hello world project",
+    "shortDescription": "Hello world project Patrick",
     "longDescription": "This is a long description about what is a hello world project and for what is used for. Setup Guide! ",
     "Variables": [ 
         {
