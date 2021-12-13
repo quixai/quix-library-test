@@ -17,11 +17,18 @@
             "DefaultValue" : "quixdev-connectorsdontdelete"
         }, 
         {
-            "Name" : "Topic",
+            "Name" : "Input",
             "Type" : "EnvironmentVariable",
-            "InputType" : "Topic",
-            "Description" : "",
-            "DefaultValue" : "everything"
+            "InputType" : "InputTopic",
+            "Description" : "This is the input topic",
+            "DefaultValue" : "input"
+        }, 
+        {
+            "Name" : "Output",
+            "Type" : "EnvironmentVariable",
+            "InputType" : "OutputTopic",
+            "Description" : "This is the output topic",
+            "DefaultValue" : "output"
         }, 
         {
             "Name" : "google_project_id",
