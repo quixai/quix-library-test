@@ -1,10 +1,10 @@
 {
+    "libraryItemId": "f628c052-c421-4011-801c-866598f3aba1",
     "name": "Test1",
     "language": "C#",
     "tags": {
         "TagGroup1": ["tag1", "tag2"],
         "TagGroup2": ["tag3", "tag4"]
     },
-    "shortDescription": "Short description",
-    "longDescription": "Long description"
+    "shortDescription": "Short description"
 }
