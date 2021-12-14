@@ -1,4 +1,5 @@
 {
+    "libraryItemId": "dfa73846-6184-4156-8cef-90ac0cc12d3b",
     "name": "Hello World",
     "language": "Python",
     "tags": {
@@ -7,7 +8,6 @@
       "Complexity": [ "Easy" ]
     },
     "shortDescription": "Hello world project Patrick",
-    "longDescription": "This is a long description about what is a hello world project and for what is used for. Setup Guide! ",
     "Variables": [ 
         {
             "Name" : "WorkspaceId",
