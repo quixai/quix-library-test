@@ -1,11 +1,11 @@
 {
+    "libraryItemId": "f628c052-c421-4011-801c-866598f3aba1",
     "name": "Test2",
     "language": "Python",
     "tags": {
         "TagGroup1": ["tag99", "tag100"]
     },
     "shortDescription": "Short description 2",
-    "longDescription": "Long description 2",
     "Variables": [ 
         {
             "Name" : "WorkspaceId",
