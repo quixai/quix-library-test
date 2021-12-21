@@ -6,5 +6,21 @@
         "TagGroup1": ["tag1", "tag2"],
         "TagGroup2": ["tag3", "tag4"]
     },
-    "shortDescription": "Short description"
+    "shortDescription": "Short description",
+    "Variables": [ 
+        {
+            "Name" : "1",
+            "Type" : "Placeholder",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "test"
+        }, 
+        {
+            "Name" : "2",
+            "Type" : "Placeholder",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "test"
+        }
+    ]    
 }
