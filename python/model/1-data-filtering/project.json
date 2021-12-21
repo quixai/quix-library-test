@@ -17,14 +17,14 @@
             "DefaultValue" : "quixdev-connectorsdontdelete"
         }, 
         {
-            "Name" : "Input",
+            "Name" : "input",
             "Type" : "Placeholder",
             "InputType" : "InputTopic",
             "Description" : "This is the input topic",
             "DefaultValue" : "input"
         }, 
         {
-            "Name" : "Output",
+            "Name" : "output",
             "Type" : "Placeholder",
             "InputType" : "OutputTopic",
             "Description" : "This is the output topic",
