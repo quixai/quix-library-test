@@ -9,8 +9,8 @@ client = StreamingClient('{placeholder:broker.address}', security)
 
 # Change consumer group to a different constant if you want to run model locally.
 print("Opening input and output topic")
-input_topic = client.open_input_topic('{placeholder:topic}', "default-consumer-group")
-output_topic = client.open_output_topic('{placeholder:topic}')
+input_topic = client.open_input_topic('{placeholder:input}', "default-consumer-group")
+output_topic = client.open_output_topic('{placeholder:output}')
 
 
 # Callback called for each incoming stream
