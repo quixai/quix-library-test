@@ -18,14 +18,14 @@
         }, 
         {
             "Name" : "Input",
-            "Type" : "EnvironmentVariable",
+            "Type" : "Placeholder",
             "InputType" : "InputTopic",
             "Description" : "This is the input topic",
             "DefaultValue" : "input"
         }, 
         {
             "Name" : "Output",
-            "Type" : "EnvironmentVariable",
+            "Type" : "Placeholder",
             "InputType" : "OutputTopic",
             "Description" : "This is the output topic",
             "DefaultValue" : "output"
