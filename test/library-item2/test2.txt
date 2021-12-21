@@ -1,5 +1,5 @@
 This is the line 1
 This is the line 2
 This is the line 3
-placeholder:var2
+{placeholder:var2}
 This is the line 4
