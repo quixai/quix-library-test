@@ -17,8 +17,8 @@
             "DefaultValue" : "quixdev-connectorsdontdelete"
         }, 
         {
-            "Name" : "Topic",
-            "Type" : "EnvironmentVariable",
+            "Name" : "input",
+            "Type" : "Placeholder",
             "InputType" : "Topic",
             "Description" : "",
             "DefaultValue" : "everything"
