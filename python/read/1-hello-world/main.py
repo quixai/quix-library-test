@@ -5,11 +5,11 @@ import signal
 import threading
 
 # Create a client. Client helps you to create input reader or output writer for specified topic.
-security = SecurityOptions('{placeholder:broker.security.certificatepath}', "{placeholder:broker.security.username}", "{placeholder:broker.security.password}")
+security = SecurityOptions("{placeholder:broker.security.username}", "{placeholder:broker.security.password}")
 client = StreamingClient('{placeholder:broker.address}', security)
 
 
-input_topic = client.open_input_topic('{placeholder:inputTopic}')
+input_topic = client.open_input_topic('{placeholder:input}')
 
 
 # read streams
