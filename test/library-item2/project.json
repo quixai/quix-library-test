@@ -15,6 +15,13 @@
             "DefaultValue" : "test"
         }, 
         {
+            "Name" : "var2",
+            "Type" : "Placeholder",
+            "InputType" : "FreeText",
+            "Description" : "",
+            "DefaultValue" : "test"
+        }, 
+        {
             "Name" : "Broker__Address",
             "Type" : "EnvironmentVariable",
             "InputType" : "FreeText",
