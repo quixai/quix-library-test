@@ -8,7 +8,7 @@
     "shortDescription": "Short description 2",
     "Variables": [ 
         {
-            "Name" : "1",
+            "Name" : "var1",
             "Type" : "Placeholder",
             "InputType" : "FreeText",
             "Description" : "",
