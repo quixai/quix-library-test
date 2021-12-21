@@ -9,14 +9,14 @@
     "shortDescription": "Short description",
     "Variables": [ 
         {
-            "Name" : "1",
+            "Name" : "var1",
             "Type" : "Placeholder",
             "InputType" : "FreeText",
             "Description" : "",
             "DefaultValue" : "test"
         }, 
         {
-            "Name" : "2",
+            "Name" : "var2",
             "Type" : "Placeholder",
             "InputType" : "FreeText",
             "Description" : "",
