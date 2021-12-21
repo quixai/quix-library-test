@@ -8,11 +8,11 @@
     "shortDescription": "Short description 2",
     "Variables": [ 
         {
-            "Name" : "WorkspaceId",
-            "Type" : "EnvironmentVariable",
+            "Name" : "1",
+            "Type" : "Placeholder",
             "InputType" : "FreeText",
             "Description" : "",
-            "DefaultValue" : "quixdev-connectorsdontdelete"
+            "DefaultValue" : "test"
         }, 
         {
             "Name" : "Broker__Address",
