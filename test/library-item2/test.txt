@@ -1,4 +1,4 @@
-Patrick bla bla bla {placeholder:1}
+Patrick bla bla bla {placeholder:var1}
 
 Token: {placeholder:token}
 WorkspaceId: {placeholder:workspaceId}
