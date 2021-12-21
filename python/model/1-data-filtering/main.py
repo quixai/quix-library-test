@@ -5,13 +5,12 @@ import signal
 import pandas as pd
 
 # Create a client. Client helps you to create input reader or output writer for specified topic.
-security = SecurityOptions('{placeholder:broker.security.certificatepath}', "{placeholder:broker.security.username}", "{placeholder:broker.security.password}")
 client = StreamingClient('{placeholder:broker.address}', security)
 
 # Change consumer group to a different constant if you want to run model locally.
 print("Opening input and output topic")
-input_topic = client.open_input_topic('{placeholder:inputTopic}', "default-consumer-group")
-output_topic = client.open_output_topic('{placeholder:outputTopic}')
+input_topic = client.open_input_topic('{placeholder:topic}', "default-consumer-group")
+output_topic = client.open_output_topic('{placeholder:topic}')
 
 
 # Callback called for each incoming stream
