@@ -1,0 +1,19 @@
+# Execute curl POST request to send data to the stream
+curl -X POST "https://writer-quixdev-davidtest.dev.quix.ai/topics/helloworldwritetotopic-output/streams/hello-world/parameters/data" \
+-H "Authorization: bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlpXeUJqWTgzcXotZW1pUlZDd1I4dyJ9.eyJodHRwczovL3F1aXguYWkvb3JnX2lkIjoicXVpeGRldiIsImh0dHBzOi8vcXVpeC5haS9yb2xlcyI6ImFkbWluIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmRldi5xdWl4LmFpLyIsInN1YiI6ImF1dGgwfGIzZGVjNTAxLWNiOWUtNDk0Zi1hYTg4LWIwZDQ3MjY3ZDBlNyIsImF1ZCI6WyJodHRwczovL3BvcnRhbC1hcGkuZGV2LnF1aXguYWkvIiwiaHR0cHM6Ly9xdWl4LWRldi5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjQwODYxNTMyLCJleHAiOjE2NDM0NTM1MzIsImF6cCI6IjYwNEE5cTVWb2NZb3ZvTlBvTWlqdWVVWmNFSEljbE1zIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInBlcm1pc3Npb25zIjpbXX0.PY7LAupfNwsh7zwXy42MqVfHsIUyY3cpEM87Q1qM3HERgLWNqMjNsX5DGLSUS3iP4ucnUmxGKIuSpeTPsrxWavhJ1n5CqK7QqiG94Cbih5v4n2VX8FuRMfd0E4QQNUaPQqFk85dkJLC3g3NPNnsW3PVYlbja75A1T1Yz08fdiLd-ib4IPe5xEEjjmlNjQgCRxGjX86Ec9T45oFWL7bQB-1psOylm5T7p3bLug6rs9eWIDDaneSrq0q0adtwJpV7WZF0e1RfI8PBprKIvbjarVmjzIccejMg0QeeYhadqiu-pudt3WCTEbE26gTPyjl5WGOHIp7x3Q_pq1cKptOAkZg" \
+-H "Content-Type: application/json" \
+-d "{
+    \"Timestamps\": [ 1591733989000000000, 1591733990000000000, 1591733991000000000, 1591733992000000000],
+    \"NumericValues\": 
+        {
+            \"SomeParameter1\": [10.01, 202.02, 303.03, 250],
+            \"SomeParameter2\": [400.04, 50.05, 60.06, 200]
+        }
+}"
+
+# Execute curl POST request to close the stream
+curl -i -X POST "https://writer-quixdev-davidtest.dev.quix.ai/topics/helloworldwritetotopic-output/streams/hello-world/close" \
+-H "Authorization: bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlpXeUJqWTgzcXotZW1pUlZDd1I4dyJ9.eyJodHRwczovL3F1aXguYWkvb3JnX2lkIjoicXVpeGRldiIsImh0dHBzOi8vcXVpeC5haS9yb2xlcyI6ImFkbWluIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmRldi5xdWl4LmFpLyIsInN1YiI6ImF1dGgwfGIzZGVjNTAxLWNiOWUtNDk0Zi1hYTg4LWIwZDQ3MjY3ZDBlNyIsImF1ZCI6WyJodHRwczovL3BvcnRhbC1hcGkuZGV2LnF1aXguYWkvIiwiaHR0cHM6Ly9xdWl4LWRldi5ldS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNjQwODYxNTMyLCJleHAiOjE2NDM0NTM1MzIsImF6cCI6IjYwNEE5cTVWb2NZb3ZvTlBvTWlqdWVVWmNFSEljbE1zIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInBlcm1pc3Npb25zIjpbXX0.PY7LAupfNwsh7zwXy42MqVfHsIUyY3cpEM87Q1qM3HERgLWNqMjNsX5DGLSUS3iP4ucnUmxGKIuSpeTPsrxWavhJ1n5CqK7QqiG94Cbih5v4n2VX8FuRMfd0E4QQNUaPQqFk85dkJLC3g3NPNnsW3PVYlbja75A1T1Yz08fdiLd-ib4IPe5xEEjjmlNjQgCRxGjX86Ec9T45oFWL7bQB-1psOylm5T7p3bLug6rs9eWIDDaneSrq0q0adtwJpV7WZF0e1RfI8PBprKIvbjarVmjzIccejMg0QeeYhadqiu-pudt3WCTEbE26gTPyjl5WGOHIp7x3Q_pq1cKptOAkZg" \
+-H "Content-Type: application/json"
+
+# Explore data at https://portal.dev.quix.ai/data?workspace=quixdev-davidtest
