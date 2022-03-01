@@ -70,6 +70,6 @@
             "DefaultValue" : "quix-sub"
         }
     ],
-    "EntryPoint" : "source/build/dockerfile"
-
+    "EntryPoint" : "source/build/dockerfile",
+    "IconFile": "icon.png"
 }
